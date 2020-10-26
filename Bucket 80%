@@ -1,0 +1,34 @@
+BUCKET PROBLEM (Stop when 80 percent is done)
+There is a Bucket of water capacity of x litres, which is supposed to fill with a mug of y millilitres water capacity. Say for example x=100 and y=10 then, bucket will get full of minimum of 8 mugs (> 80% and
+
+less than 100%>
+
+Bucket filling is to be stopped once more than 80% of bucket capacity is filled. The amount of water taken at a time in mug is not fixed as it can be any value less than or equal to y
+
+Notify to stop once bucket is full that is more than
+
+80% of capacity of bucket and count number of mugs
+
+poured into bucket.
+
+Note that Bucket capacity will always be greater that
+
+Mug's Capacity.
+
+Example 1: INPUT VALUES //
+
+100
+
+20
+
+Enter Bucket capacity in litres as this // Enter Mug capacity in litres as this
+
+//Enter Amount of water in MUG one after other as
+
+below 20
+
+20
+
+20
+
+20
