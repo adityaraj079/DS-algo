@@ -17,6 +17,16 @@ void LinkedListTraversal(struct Node* ptr)
 
 }
 
+struct Node * insertAtFirst(struct Node *head, int data)
+{
+    struct Node * ptr = (struct Node *) malloc (sizeof(struct Node));   //Declaration of a node dynamically allocated in a node
+    ptr -> next = head;
+    ptr -> data = data;
+    return ptr;
+
+
+};
+
 int main()
 {
     struct Node * head;
@@ -45,7 +55,11 @@ int main()
     //Terminate the list at the forth node
     forth->data=66 ;
     forth->next=NULL;
+    cout<<"BEfore insertion"<<endl;
+    LinkedListTraversal(head);
 
+    head = insertAtFirst(head, 56);
+    cout<<"After insertion"<<endl;
     LinkedListTraversal(head);
     return 0;
 }
