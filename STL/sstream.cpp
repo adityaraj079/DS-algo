@@ -12,3 +12,23 @@ int main()
     ss >> a >> ch >> b >> ch >> c;  // a = 23, b = 4, c = 56
 
 }
+
+
+
+/*
+vector<int> parseInts(string str) {
+	// Complete this function
+    stringstream ss(str);
+    char ch;
+    vector <int> test;
+    int tmp;
+    while(ss >> tmp) {      //??
+        test.push_back(tmp);
+        ss >> ch;           //??
+    }
+    
+    return test;
+}
+
+
+*/
